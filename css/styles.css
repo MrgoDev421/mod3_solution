@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anek Malayalam', sans-serif bold;
+    box-sizing: border-box;
+
+    
+
+
+}
+
+body {
+    
+
+   }
+
+.container{
+ 
+    
+}
+
+
+#chicken {
+    background-color: darkgray;
+    margin: 2px;px;
+    height: 100%;
+    
+    position: relative;
+    float: left;
+
+
+ 
+}
+
+#beef {
+    background-color: darkgray;
+    margin:2px;
+    height: 100%;
+    
+    position: relative;
+    float: left;
+
+
+    
+    
+
+}
+
+#sushi {
+    background-color: darkgray;
+    margin:2px;
+    height: 100%;
+
+    position: relative;
+    float: left;
+
+
+}
+h1 {text-align: center;}
+
+
+}
+
+#header-nav {
+    background-color: #530fad;
+    border-radius: 0;
+    border: 0;
+    color: white;
+}
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: white;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+#nav-list a {
+    
+    color: white;
+    text-align: center;
+
+    
+}
+
+#nav-list a:hover {
+    background-color: #8243d6;
+}
+
+
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {.row > div > article {
+    width: 80%;
+    margin: 20px auto 0;
+} }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
